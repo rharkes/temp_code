@@ -1,7 +1,7 @@
 import qupath.lib.regions.RegionRequest
 import qupath.lib.scripting.QP
 import java.awt.image.BufferedImage
-
+// DO NOT USE THIS. IT DOESNT WORK.
 def server = QP.getCurrentServer()
 def roi = QP.getSelectedROI()
 double downsample = 1.0
